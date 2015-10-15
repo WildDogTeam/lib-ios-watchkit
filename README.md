@@ -1,0 +1,2 @@
+# lib-ios-watchkit
+WatchKit 会提供WatchKit的基本概述和引导你如何将Wilddog应用到你的WatchKit app的过程
