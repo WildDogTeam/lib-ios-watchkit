@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3905FED71BC6533400A40438 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3905FED61BC6533400A40438 /* JavaScriptCore.framework */; };
+		3905FED81BC6534700A40438 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3905FED61BC6533400A40438 /* JavaScriptCore.framework */; };
+		39C8B4AC1BCB778700EAD3FF /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C8B4AB1BCB778700EAD3FF /* Wilddog.framework */; };
+		39C8B4AD1BCB778700EAD3FF /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C8B4AB1BCB778700EAD3FF /* Wilddog.framework */; };
+		39DEC1551BB4F34200A09648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC1541BB4F34200A09648 /* main.m */; };
+		39DEC1581BB4F34200A09648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC1571BB4F34200A09648 /* AppDelegate.m */; };
+		39DEC15B1BB4F34200A09648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC15A1BB4F34200A09648 /* ViewController.m */; };
+		39DEC15E1BB4F34200A09648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC15C1BB4F34200A09648 /* Main.storyboard */; };
+		39DEC1601BB4F34200A09648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC15F1BB4F34200A09648 /* Assets.xcassets */; };
+		39DEC1631BB4F34200A09648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC1611BB4F34200A09648 /* LaunchScreen.storyboard */; };
+		39DEC16E1BB4F34200A09648 /* WilddogWatchAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC16D1BB4F34200A09648 /* WilddogWatchAppTests.m */; };
+		39DEC1791BB4F34200A09648 /* WilddogWatchAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC1781BB4F34200A09648 /* WilddogWatchAppUITests.m */; };
+		39DEC1901BB4F35C00A09648 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC18F1BB4F35C00A09648 /* InterfaceController.m */; };
+		39DEC1931BB4F35C00A09648 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DEC1921BB4F35C00A09648 /* NotificationController.m */; };
+		39DEC1951BB4F35C00A09648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC1941BB4F35C00A09648 /* Assets.xcassets */; };
+		39DEC19A1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC1991BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App.app */; };
+		39DEC1A01BB4F35C00A09648 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC19E1BB4F35C00A09648 /* Interface.storyboard */; };
+		39DEC1A21BB4F35C00A09648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DEC1A11BB4F35C00A09648 /* Assets.xcassets */; };
+		39DEC1A61BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 39DEC18A1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DEC16A1BB4F34200A09648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DEC1481BB4F34200A09648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DEC14F1BB4F34200A09648;
+			remoteInfo = WilddogWatchApp;
+		};
+		39DEC1751BB4F34200A09648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DEC1481BB4F34200A09648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DEC14F1BB4F34200A09648;
+			remoteInfo = WilddogWatchApp;
+		};
+		39DEC19B1BB4F35C00A09648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DEC1481BB4F34200A09648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DEC1981BB4F35C00A09648;
+			remoteInfo = "WilddogWatchApp WatchKit 1 App";
+		};
+		39DEC1A41BB4F35C00A09648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DEC1481BB4F34200A09648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DEC1891BB4F35C00A09648;
+			remoteInfo = "WilddogWatchApp WatchKit 1 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39DEC1AD1BB4F35C00A09648 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				39DEC1A61BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC2501BB532B400A09648 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3905FED61BC6533400A40438 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		39C8B4AB1BCB778700EAD3FF /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+		39DEC1501BB4F34200A09648 /* WilddogWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilddogWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DEC1541BB4F34200A09648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39DEC1561BB4F34200A09648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39DEC1571BB4F34200A09648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39DEC1591BB4F34200A09648 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39DEC15A1BB4F34200A09648 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39DEC15D1BB4F34200A09648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39DEC15F1BB4F34200A09648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DEC1621BB4F34200A09648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39DEC1641BB4F34200A09648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DEC1691BB4F34200A09648 /* WilddogWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DEC16D1BB4F34200A09648 /* WilddogWatchAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogWatchAppTests.m; sourceTree = "<group>"; };
+		39DEC16F1BB4F34200A09648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DEC1741BB4F34200A09648 /* WilddogWatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogWatchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DEC1781BB4F34200A09648 /* WilddogWatchAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogWatchAppUITests.m; sourceTree = "<group>"; };
+		39DEC17A1BB4F34200A09648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DEC18A1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WilddogWatchApp WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DEC18D1BB4F35C00A09648 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		39DEC18E1BB4F35C00A09648 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		39DEC18F1BB4F35C00A09648 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		39DEC1911BB4F35C00A09648 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		39DEC1921BB4F35C00A09648 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		39DEC1941BB4F35C00A09648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DEC1961BB4F35C00A09648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DEC1991BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WilddogWatchApp WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DEC19F1BB4F35C00A09648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		39DEC1A11BB4F35C00A09648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DEC1A31BB4F35C00A09648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39DEC14D1BB4F34200A09648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3905FED71BC6533400A40438 /* JavaScriptCore.framework in Frameworks */,
+				39C8B4AC1BCB778700EAD3FF /* Wilddog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1661BB4F34200A09648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1711BB4F34200A09648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1871BB4F35C00A09648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3905FED81BC6534700A40438 /* JavaScriptCore.framework in Frameworks */,
+				39C8B4AD1BCB778700EAD3FF /* Wilddog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DEC1471BB4F34200A09648 = {
+			isa = PBXGroup;
+			children = (
+				39C8B4AB1BCB778700EAD3FF /* Wilddog.framework */,
+				3905FED61BC6533400A40438 /* JavaScriptCore.framework */,
+				39DEC1521BB4F34200A09648 /* WilddogWatchApp */,
+				39DEC16C1BB4F34200A09648 /* WilddogWatchAppTests */,
+				39DEC1771BB4F34200A09648 /* WilddogWatchAppUITests */,
+				39DEC18B1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension */,
+				39DEC19D1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App */,
+				39DEC1511BB4F34200A09648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39DEC1511BB4F34200A09648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC1501BB4F34200A09648 /* WilddogWatchApp.app */,
+				39DEC1691BB4F34200A09648 /* WilddogWatchAppTests.xctest */,
+				39DEC1741BB4F34200A09648 /* WilddogWatchAppUITests.xctest */,
+				39DEC18A1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension.appex */,
+				39DEC1991BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DEC1521BB4F34200A09648 /* WilddogWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC1561BB4F34200A09648 /* AppDelegate.h */,
+				39DEC1571BB4F34200A09648 /* AppDelegate.m */,
+				39DEC1591BB4F34200A09648 /* ViewController.h */,
+				39DEC15A1BB4F34200A09648 /* ViewController.m */,
+				39DEC15C1BB4F34200A09648 /* Main.storyboard */,
+				39DEC15F1BB4F34200A09648 /* Assets.xcassets */,
+				39DEC1611BB4F34200A09648 /* LaunchScreen.storyboard */,
+				39DEC1641BB4F34200A09648 /* Info.plist */,
+				39DEC1531BB4F34200A09648 /* Supporting Files */,
+			);
+			path = WilddogWatchApp;
+			sourceTree = "<group>";
+		};
+		39DEC1531BB4F34200A09648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC1541BB4F34200A09648 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39DEC16C1BB4F34200A09648 /* WilddogWatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC16D1BB4F34200A09648 /* WilddogWatchAppTests.m */,
+				39DEC16F1BB4F34200A09648 /* Info.plist */,
+			);
+			path = WilddogWatchAppTests;
+			sourceTree = "<group>";
+		};
+		39DEC1771BB4F34200A09648 /* WilddogWatchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC1781BB4F34200A09648 /* WilddogWatchAppUITests.m */,
+				39DEC17A1BB4F34200A09648 /* Info.plist */,
+			);
+			path = WilddogWatchAppUITests;
+			sourceTree = "<group>";
+		};
+		39DEC18B1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC18E1BB4F35C00A09648 /* InterfaceController.h */,
+				39DEC18F1BB4F35C00A09648 /* InterfaceController.m */,
+				39DEC1911BB4F35C00A09648 /* NotificationController.h */,
+				39DEC1921BB4F35C00A09648 /* NotificationController.m */,
+				39DEC1941BB4F35C00A09648 /* Assets.xcassets */,
+				39DEC1961BB4F35C00A09648 /* Info.plist */,
+				39DEC18C1BB4F35C00A09648 /* Supporting Files */,
+			);
+			path = "WilddogWatchApp WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		39DEC18C1BB4F35C00A09648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC18D1BB4F35C00A09648 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39DEC19D1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				39DEC19E1BB4F35C00A09648 /* Interface.storyboard */,
+				39DEC1A11BB4F35C00A09648 /* Assets.xcassets */,
+				39DEC1A31BB4F35C00A09648 /* Info.plist */,
+			);
+			path = "WilddogWatchApp WatchKit 1 App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39DEC14F1BB4F34200A09648 /* WilddogWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DEC17D1BB4F34200A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchApp" */;
+			buildPhases = (
+				39DEC14C1BB4F34200A09648 /* Sources */,
+				39DEC14D1BB4F34200A09648 /* Frameworks */,
+				39DEC14E1BB4F34200A09648 /* Resources */,
+				39DEC1AD1BB4F35C00A09648 /* Embed App Extensions */,
+				39DEC2501BB532B400A09648 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DEC1A51BB4F35C00A09648 /* PBXTargetDependency */,
+			);
+			name = WilddogWatchApp;
+			productName = WilddogWatchApp;
+			productReference = 39DEC1501BB4F34200A09648 /* WilddogWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DEC1681BB4F34200A09648 /* WilddogWatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DEC1801BB4F34200A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchAppTests" */;
+			buildPhases = (
+				39DEC1651BB4F34200A09648 /* Sources */,
+				39DEC1661BB4F34200A09648 /* Frameworks */,
+				39DEC1671BB4F34200A09648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DEC16B1BB4F34200A09648 /* PBXTargetDependency */,
+			);
+			name = WilddogWatchAppTests;
+			productName = WilddogWatchAppTests;
+			productReference = 39DEC1691BB4F34200A09648 /* WilddogWatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39DEC1731BB4F34200A09648 /* WilddogWatchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DEC1831BB4F34200A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchAppUITests" */;
+			buildPhases = (
+				39DEC1701BB4F34200A09648 /* Sources */,
+				39DEC1711BB4F34200A09648 /* Frameworks */,
+				39DEC1721BB4F34200A09648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DEC1761BB4F34200A09648 /* PBXTargetDependency */,
+			);
+			name = WilddogWatchAppUITests;
+			productName = WilddogWatchAppUITests;
+			productReference = 39DEC1741BB4F34200A09648 /* WilddogWatchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		39DEC1891BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DEC1AA1BB4F35C00A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchApp WatchKit 1 Extension" */;
+			buildPhases = (
+				39DEC1861BB4F35C00A09648 /* Sources */,
+				39DEC1871BB4F35C00A09648 /* Frameworks */,
+				39DEC1881BB4F35C00A09648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DEC19C1BB4F35C00A09648 /* PBXTargetDependency */,
+			);
+			name = "WilddogWatchApp WatchKit 1 Extension";
+			productName = "WilddogWatchApp WatchKit 1 Extension";
+			productReference = 39DEC18A1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		39DEC1981BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DEC1A71BB4F35C00A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchApp WatchKit 1 App" */;
+			buildPhases = (
+				39DEC1971BB4F35C00A09648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WilddogWatchApp WatchKit 1 App";
+			productName = "WilddogWatchApp WatchKit 1 App";
+			productReference = 39DEC1991BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DEC1481BB4F34200A09648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wilddog;
+				TargetAttributes = {
+					39DEC14F1BB4F34200A09648 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					39DEC1681BB4F34200A09648 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 39DEC14F1BB4F34200A09648;
+					};
+					39DEC1731BB4F34200A09648 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 39DEC14F1BB4F34200A09648;
+					};
+					39DEC1891BB4F35C00A09648 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					39DEC1981BB4F35C00A09648 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 39DEC14B1BB4F34200A09648 /* Build configuration list for PBXProject "WilddogWatchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39DEC1471BB4F34200A09648;
+			productRefGroup = 39DEC1511BB4F34200A09648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DEC14F1BB4F34200A09648 /* WilddogWatchApp */,
+				39DEC1681BB4F34200A09648 /* WilddogWatchAppTests */,
+				39DEC1731BB4F34200A09648 /* WilddogWatchAppUITests */,
+				39DEC1891BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension */,
+				39DEC1981BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39DEC14E1BB4F34200A09648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC1631BB4F34200A09648 /* LaunchScreen.storyboard in Resources */,
+				39DEC1601BB4F34200A09648 /* Assets.xcassets in Resources */,
+				39DEC15E1BB4F34200A09648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1671BB4F34200A09648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1721BB4F34200A09648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1881BB4F35C00A09648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC19A1BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App.app in Resources */,
+				39DEC1951BB4F35C00A09648 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1971BB4F35C00A09648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC1A21BB4F35C00A09648 /* Assets.xcassets in Resources */,
+				39DEC1A01BB4F35C00A09648 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DEC14C1BB4F34200A09648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC15B1BB4F34200A09648 /* ViewController.m in Sources */,
+				39DEC1581BB4F34200A09648 /* AppDelegate.m in Sources */,
+				39DEC1551BB4F34200A09648 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1651BB4F34200A09648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC16E1BB4F34200A09648 /* WilddogWatchAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1701BB4F34200A09648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC1791BB4F34200A09648 /* WilddogWatchAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DEC1861BB4F35C00A09648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DEC1931BB4F35C00A09648 /* NotificationController.m in Sources */,
+				39DEC1901BB4F35C00A09648 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DEC16B1BB4F34200A09648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DEC14F1BB4F34200A09648 /* WilddogWatchApp */;
+			targetProxy = 39DEC16A1BB4F34200A09648 /* PBXContainerItemProxy */;
+		};
+		39DEC1761BB4F34200A09648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DEC14F1BB4F34200A09648 /* WilddogWatchApp */;
+			targetProxy = 39DEC1751BB4F34200A09648 /* PBXContainerItemProxy */;
+		};
+		39DEC19C1BB4F35C00A09648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DEC1981BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 App */;
+			targetProxy = 39DEC19B1BB4F35C00A09648 /* PBXContainerItemProxy */;
+		};
+		39DEC1A51BB4F35C00A09648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DEC1891BB4F35C00A09648 /* WilddogWatchApp WatchKit 1 Extension */;
+			targetProxy = 39DEC1A41BB4F35C00A09648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39DEC15C1BB4F34200A09648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DEC15D1BB4F34200A09648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39DEC1611BB4F34200A09648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DEC1621BB4F34200A09648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		39DEC19E1BB4F35C00A09648 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DEC19F1BB4F35C00A09648 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39DEC17B1BB4F34200A09648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39DEC17C1BB4F34200A09648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DEC17E1BB4F34200A09648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					WatchKit,
+					1,
+					Extension,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WilddogWatchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39DEC17F1BB4F34200A09648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					WatchKit,
+					1,
+					Extension,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WilddogWatchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39DEC1811BB4F34200A09648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+				);
+				INFOPLIST_FILE = WilddogWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilddogWatchApp.app/WilddogWatchApp";
+			};
+			name = Debug;
+		};
+		39DEC1821BB4F34200A09648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+				);
+				INFOPLIST_FILE = WilddogWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilddogWatchApp.app/WilddogWatchApp";
+			};
+			name = Release;
+		};
+		39DEC1841BB4F34200A09648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+				);
+				INFOPLIST_FILE = WilddogWatchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilddogWatchApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		39DEC1851BB4F34200A09648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+				);
+				INFOPLIST_FILE = WilddogWatchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilddogWatchApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		39DEC1A81BB4F35C00A09648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WilddogWatchApp_WatchKit_1_Extension;
+				INFOPLIST_FILE = "WilddogWatchApp WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		39DEC1A91BB4F35C00A09648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WilddogWatchApp_WatchKit_1_Extension;
+				INFOPLIST_FILE = "WilddogWatchApp WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		39DEC1AB1BB4F35C00A09648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					WatchKit,
+					1,
+					Extension,
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					WatchKit,
+					1,
+					Extension,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "WilddogWatchApp WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchApp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39DEC1AC1BB4F35C00A09648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					WatchKit,
+					1,
+					Extension,
+					"$(PROJECT_DIR)/WilddogWatchApp",
+					WatchKit,
+					1,
+					Extension,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "WilddogWatchApp WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilddogWatchApp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DEC14B1BB4F34200A09648 /* Build configuration list for PBXProject "WilddogWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DEC17B1BB4F34200A09648 /* Debug */,
+				39DEC17C1BB4F34200A09648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DEC17D1BB4F34200A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DEC17E1BB4F34200A09648 /* Debug */,
+				39DEC17F1BB4F34200A09648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DEC1801BB4F34200A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DEC1811BB4F34200A09648 /* Debug */,
+				39DEC1821BB4F34200A09648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DEC1831BB4F34200A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DEC1841BB4F34200A09648 /* Debug */,
+				39DEC1851BB4F34200A09648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DEC1A71BB4F35C00A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchApp WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DEC1A81BB4F35C00A09648 /* Debug */,
+				39DEC1A91BB4F35C00A09648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DEC1AA1BB4F35C00A09648 /* Build configuration list for PBXNativeTarget "WilddogWatchApp WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DEC1AB1BB4F35C00A09648 /* Debug */,
+				39DEC1AC1BB4F35C00A09648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39DEC1481BB4F34200A09648 /* Project object */;
+}

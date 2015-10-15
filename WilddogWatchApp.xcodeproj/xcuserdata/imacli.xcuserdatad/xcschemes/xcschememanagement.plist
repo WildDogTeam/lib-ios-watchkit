@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - WilddogWatchApp WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>WilddogWatchApp WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>WilddogWatchApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>39DEC14F1BB4F34200A09648</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DEC1681BB4F34200A09648</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DEC1731BB4F34200A09648</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DEC1981BB4F35C00A09648</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
