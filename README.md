@@ -760,3 +760,33 @@ ref.authWithCustomToken(authToken, withCompletionBlock: { [unowned self] (error:
 
 如果`authData`是`nil`, label 或者 table row 就会通知用户你还未登录。
 在这个例子中，我们用 row 显示用户未登录。
+
+
+## 注册 Wilddog
+
+WatchKit 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
+
+
+## 支持
+如果在使用过程中有任何问题，请提 [issue](https://github.com/WildDogTeam/lib-ios-watchkit/issues) ，我会在 Github 上给予帮助。
+
+## 相关文档
+
+* [Wilddog 概览](https://z.wilddog.com/overview/guide)
+* [iOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
+* [iOS SDK 开发向导](https://z.wilddog.com/ios/guide/1)
+* [iOS SDK API](https://z.wilddog.com/ios/api)
+* [下载页面](https://www.wilddog.com/download/)
+* [Wilddog FAQ](https://z.wilddog.com/faq/qa)
+
+
+## License
+[MIT](http://wilddog.mit-license.org/)
+
+## 感谢 Thanks
+
+lib-ios-watchkit is built on and with the aid of several  projects. We would like to thank the following projects for helping us achieve our goals:
+
+Open Source:
+
+* [WatchKit](https://www.firebase.com/docs/ios/libraries/watchkit/guide.html) WatchKit for Objective-C - Realtime location queries with Firebase
