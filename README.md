@@ -6,7 +6,7 @@
 
 #### 创建一个新的 Watch App
 
-打开 Xcode，建立一个新工程。选择 iOS > Application > Single View Application。工程建立完成后，点击菜单栏 File > New > Target > Apple Watch。在 Apple Watch 栏中选中 WatchKit App，点击 Next > Finish > Activate完成新建工程操作。
+打开 Xcode，建立一个新工程。选择 iOS > Application > Single View Application。工程建立完成后，点击菜单栏 File > New > Target > Apple Watch。在 Apple Watch 栏中选中 WatchKit App，点击 Next > Finish > Activate 完成新建工程操作。
 
 **创建一个 WatchKit App Extension**
                     
