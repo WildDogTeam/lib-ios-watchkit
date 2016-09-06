@@ -10,18 +10,6 @@
 
 **创建一个 WatchKit App Extension**
                     
-[创建一个 WatchKit App Extension 视频实例](https://cdn.wilddog.com/console/video/create-watchapp-extension.mp4)
-
-#### Wilddog Kit 引入工程
-
-1、下载 SDK。  
-2、把 Wilddog.Framework 拖到工程目录中。  
-3、选中 Copy items if needed 、Create Groups，在 Add to targets中勾选 WatchKit Extension 和 WatchKit App ，点击 Finish。  
-4、点击工程文件 -> TARGETS -> General，在 Linked Frameworks and Libraries 选项中点击 '+'，将 JavaScriptCore.framework 加入列表中。  
-5、同样，点击工程文件 -> TARGETS -> 点击 WatchKit Extension -> General，在 Linked Frameworks and Libraries 选项中点击 '+'，将 JavaScriptCore.framework 加入列表中。
-
-[Wilddog Kit 引入工程视频实例](https://cdn.wilddog.com/console/video/import-wilddogsdk.mp4)
-
 #### Watch App 工程
 
 Watch App 主要有三个部分：Host app,  WatchKit Extension 和 WatchApp。
@@ -42,8 +30,6 @@ WatchApp 工程包含 Watch App 的 interface。这是 Watch App 运行在 Apple
 #### 创建 Interface
 
 让我们建立一个简单的界面。打开在 WatchKit app 下的`Interface.storyboard`。在`Interface.storyboard`中添加一个 label 和 button。
-
-[创建 Interface 视频实例](https://cdn.wilddog.com/console/video/create-the-interface.mp4)
 
 在 WatchKit Extension 下的`InterfaceController`类中，添加 outlet 和 action。如：
 
@@ -71,8 +57,6 @@ Swift
 }
 
 ```
-
-[outlet 和 action 视频实例](https://cdn.wilddog.com/console/video/wktable-setup.mp4)
 
 
 #### 创建一个 Wilddog 引用
@@ -292,12 +276,7 @@ override func didDeactivate() {
 
 WatchKit 提供了一个类似于`UITableView`的表格控件，它是`WKTableInterface`。
 
-[创建 WKTableInterface 视频实例](https://cdn.wilddog.com/console/video/wktable-model-setup.mp4)
-
 使用`Interface.storyboard`拖一个`table`到视图。每个`table`由`row`组成。对于这个`table`的`row`，我们将它起名为`TableRow`。
-
-
-[创建 tableRow 视频实例](https://cdn.wilddog.com/console/video/setup-outlets-actions.mp4)
 
 
 
@@ -609,10 +588,6 @@ ref.observeEventType(.ChildChanged, withBlock: { [unowned self] (snapshot: WData
 #### 用户认证
 
 iOS App Extensions，和 Watch Apps 一样，都是单独的 bundle 。我们可以在`NSUserDefaults`中存储用户的认证 token。调用`authWithCustomToken`方法去用户认证。
-
-#### 启用App Groups
-
-[启用App Groups 视频实例](https://cdn.wilddog.com/console/video/configure-app-groups.mp4)
 
 #### 保存认证token
 
